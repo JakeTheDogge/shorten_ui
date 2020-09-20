@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './Home.module.css';
 
-const server = "http://localhost:8080/api/";
+import {server} from '../../App';
 
 
 

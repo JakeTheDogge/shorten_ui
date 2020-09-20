@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-do
 import styles from './App.module.css';
 import Home from './components/Home/Home';
 import Analysis from './components/Analysis/Analysis';
-
+export const server = "http://localhost:8080/api/";
 
 import './App.css';
 
