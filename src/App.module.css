@@ -1,0 +1,36 @@
+html, body {
+    min-height: 100vh
+  }
+  
+  body {
+    display: flex;
+    flex-flow: column;
+  }
+  
+  textarea:hover, textarea:focus {
+    outline: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .menu {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 3vh;
+    font-family: TypingMachine;
+    font-size: 3vh;
+    margin: 2vh;
+  }
+  
+  .menuItem, .menuTitle {
+    margin: 0vw 0.3vw;
+  }
+  
+  .selectedNav{
+    text-decoration-line: underline;
+  }

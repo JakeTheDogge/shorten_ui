@@ -1,0 +1,44 @@
+.card{
+    display: block;
+    width: 70vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cardItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.longLink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item{
+    margin-left: 10vh;
+    margin-right: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 300px;
+    height: 30px;
+}
+
+.short{
+    margin-left: 10vh;
+    margin-right: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 300px;
+    height: 30px;
+}
+.results{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    align-items: center;
+
+}
